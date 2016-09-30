@@ -1,6 +1,9 @@
-mesaflash (3.3.0~pre) UNRELEASED; urgency=low
+mesaflash (3.2.9~ccc1) UNRELEASED; urgency=low
 
- -- Michael Geszkiewicz <micges@wp.pl>  27 Sep 2015 19:24:42 -0500
+  [ Moses McKnight ]
+  * Added support for CandCNC EB01 board
+
+ -- Moses McKnight <moses@texband.net>  Fri, 30 Sep 2016 16:36:11 -0500
 
 mesaflash (3.2.0) UNRELEASED; urgency=low
 
