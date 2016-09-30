@@ -30,6 +30,7 @@
 #include "serial_boards.h"
 
 supported_board_entry_t supported_boards[] = {
+    {"EBOB-01", BOARD_ETH},
     {"7I92", BOARD_ETH},
     {"7I80", BOARD_ETH},
     {"7I76E", BOARD_ETH},
