@@ -300,7 +300,7 @@ static int eth_scan_one_addr(board_access_t *access) {
             board->flash = BOARD_FLASH_REMOTE;
             board->fallback_support = 1;
             board->llio.verbose = access->verbose;
-        } else if (strncmp(buff, "EBOB_01", 7) == 0) {
+        } else if (strncmp(buff, "EBOB-01", 7) == 0) {
             board->type = BOARD_ETH;
             strncpy(board->dev_addr, eth_socket_get_src_ip(), 16);
             strncpy(board->llio.board_name, buff, 16);
