@@ -679,6 +679,7 @@ void hm2_print_pin_file(llio_t *llio, int xml_flag) {
                     case 24:
                         pin_nr = (i*(llio->hm2.idrom.port_width) + j) % (llio->hm2.idrom.port_width)*2 + 1;
                         break;
+                    case 28:
                     case 32:
                         pin_nr = i*(llio->hm2.idrom.port_width) + j;
                         break;
